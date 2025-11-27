@@ -1,0 +1,376 @@
+
+/*---------------------------------------------HEADER--------------------------------------------------*/
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1); /* opcional - deixa fundo translúcido */
+    backdrop-filter: blur(4px); /* opcional */
+    z-index: 800;
+    padding: 50px 80px;
+}
+
+#perfil1{
+    border-radius: 50%;
+    box-shadow: 0px 5px 2px rgb(226, 173, 82);
+}
+
+#navegar .nav-link{
+    font-size: 20px;
+    font-weight: 1000;
+    font-style: italic;
+    color:rgb(181, 57, 125);
+    transition: transform 0.2s ease;
+}
+#navegar .nav-link:hover{
+    text-shadow: rgb(131, 34, 87) 1px 2px;
+    font-size: 20px;
+    transform: scale(1.1);
+}
+
+
+#bot-log{
+    border-radius: 30%;
+    box-shadow: rgb(131, 34, 87) 2px 2.5px;
+    border-color: rgb(158, 36, 103);
+    background-color: rgb(100, 22, 65);
+    color: wheat;
+    transition: transform 0.2s ease; /* suaviza o movimento */
+}
+#bot-log:hover{
+    background-color: rgb(181, 57, 125);
+    color: rgb(79, 51, 13);
+    size-adjust: 10px;
+    transform: scale(1.1); /* aumenta 10% */
+}
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+#sobre-mim {
+
+    padding-top: 150px;
+    background-image: url(assets/imgs/inicio.jpg);
+    background-size: cover;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;     /* centraliza vertical */
+    flex-direction: column;  /* caso queira empilhar elementos verticalmente */
+}
+
+
+
+/* Centralizar todo o conteúdo da seção */
+.sobre-mim-content {
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center;
+    gap: 200px; /* espaçamento entre intro e skills */
+    margin-bottom: 100px;
+    
+    flex-wrap: wrap; /* permite quebrar linhas em telas menores */
+}
+
+.intro {
+    max-width: 600px;     /* controla largura */
+    margin: 0 auto;       /* centraliza a caixa da intro */
+    text-align: justify;  /* justifica parágrafos */
+}
+
+.intro h2 {
+    text-align: left;     /* título alinhado à esquerda */
+    margin-bottom: 20px;
+    color: rgb(195, 173, 134);
+}
+
+.intro p {
+    text-align: justify;  /* garante que o texto fique justificado */
+    margin-bottom: 10px;
+    color: rgb(195, 173, 134);
+}
+
+
+
+.explorar button{
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 14px 70px;
+    margin-top: 20px;
+    font-size: 26px;
+    background-color: transparent;
+    color: rgb(131, 34, 87);
+    box-shadow: 0 6px 12px black;
+}
+.explorar button:hover{
+    transition: 1s;
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgb(168, 71, 124);    
+}
+.explorar button a{
+    text-decoration: none;
+    color: rgb(182, 72, 132);
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills-container */
+.skills-container {
+    flex: 0 0 auto; /* não estica, ocupa apenas o necessário */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 ícones por linha */
+    gap: 15px;
+    justify-items: center; /* centraliza cada círculo na célula */
+}
+
+
+/* Skill circles continuam iguais */
+.skill-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  transition: transform .3s ease;
+}
+
+.skill-circle i {
+  font-size: 45px;
+}
+
+.skill-circle:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------PROJETOS--------------------------------------------------*/
+
+
+#projetos{
+    padding: 100px 20px;
+    height: 90vh; /* ocupa a tela inteira */
+    background-color: #7c6877;
+    scroll-behavior: smooth;
+}
+
+#projetos h2{
+    padding-top: 5px;
+    font-style: italic;
+    color: rgb(181, 57, 125);
+    text-shadow: rgb(131, 34, 87) 1px 2px;
+    text-align: center;
+}
+
+.opcoes{
+    height: 50vh;
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    display: flex;
+    
+}
+.card{
+    align-items: center;
+    gap: 70px;
+    border: 3px solid rgb(100,34,34);
+    border-radius: 5px;
+    width: 370px;
+    height: 450px;    
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.card img{
+     width: 370px;
+     height: 450px;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    backdrop-filter: blur(6px); 
+    border: 7px 0px rgb(100, 22, 65);
+    transition: 1s;
+}
+.card:hover .card-body{
+    right: 0;
+}
+.card-body h3{
+    text-transform: uppercase;
+    color: wheat;
+}
+.card-body p{
+    text-shadow: 1px 1px rgb(207, 204, 204);
+    color:rgb(207, 204, 204);
+    font-style: arial;
+}
+.title{
+    text-transform: uppercase;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.subtitle{
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(209, 210, 210);
+}
+.card-body button{
+    width: 140px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 14px;
+    background: rgb(207, 204, 204);
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.card-body button:hover{
+    background: rgb(161, 160, 160);
+    transform: scale(0.95);
+    box-shadow: 0 0 15px rgba(184, 64, 134, 0.4);
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+/*---------------------------------------------FOOTER--------------------------------------------------*/
+
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: transparent; /* ou sua cor */
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+#perfil2{
+    border-radius: 50%
+}
+
+#dev-footer{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    color:rgb(181, 57, 125);
+}
+
+#redes .rd-link img:hover{
+    transform: scale(1.1); /* aumenta 10% */
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+/*-------------------------------------------POPUP SECCAO 2----------------------------------------------*/
+
+.top-popup {
+    position: fixed;
+    top: -60px; /* começa fora da tela */
+    left: 0;
+    width: 100%;
+    background-color: #682635;
+    color: wheat;
+    text-align: center;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 16px;
+    z-index: 1000;
+    transition: top 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    visibility: hidden; /* oculto por padrão */
+}
+.top-popup.show {
+    top: 0; /* desliza para visível */
+    visibility: visible; /* visível quando mostrado */
+}
+.top-popup .close {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------COLORIR SKILLS----------------------------------------------*/
+
+
+/* Cor padrão dos ícones */
+.skill-circle i {
+    font-size: 45px;
+    color: rgb(26, 24, 24); /* ícones começam pretos */
+    transition: color 0.3s ease;
+}
+
+/* Cor quando ativado */
+.skill-circle.active i {
+    color: rgb(147, 58, 107); /* escolhe a cor que quiseres */
+}
