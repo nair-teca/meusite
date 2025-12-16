@@ -10,7 +10,7 @@ header {
     background: rgba(255, 255, 255, 0.1); /* opcional - deixa fundo translúcido */
     backdrop-filter: blur(4px); /* opcional */
     z-index: 800;
-    padding: 50px 80px;
+    padding: 10px 40px;
 }
 
 #perfil1{
@@ -198,7 +198,7 @@ header {
 
 #projetos{
     padding: 100px 20px;
-    height: 90vh; /* ocupa a tela inteira */
+    height: 100vh; /* ocupa a tela inteira */
     background-color: #7c6877;
     scroll-behavior: smooth;
 }
@@ -294,6 +294,82 @@ header {
 
 
 /*------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*-------------------------------------------PLAYGROUND-----------------------------------------------*/
+
+#playground{
+    height: 80vh;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+#playground h2{
+    padding-top: 5px;
+    font-style: italic;
+    color: rgb(181, 57, 125);
+    text-shadow: rgb(131, 34, 87) 1px 2px;
+    text-align: center;
+}
+
+/* Define altura do carrossel e faz a imagem cobrir */
+#carouselExampleIndicators {
+  max-width: 70%;
+  height: 450px; /* Ajuste a altura conforme necessário */
+  overflow: hidden;
+}
+
+#carouselExampleIndicators .carousel-inner {
+  height: 100%;
+}
+
+#carouselExampleIndicators .carousel-item img {
+  object-fit: cover; /* Faz a imagem preencher o carrossel sem distorcer */
+  height: 100%;
+}
+
+/* Indicadores personalizados */
+#carouselExampleIndicators .carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#carouselExampleIndicators .carousel-indicators .active {
+  background-color: #fff;
+}
+
+/* Botões de controle personalizados */
+#carouselExampleIndicators .carousel-control-prev-icon,
+#carouselExampleIndicators .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-size: 100%, 100%;
+}
+
+/* Adiciona efeito hover nos controles */
+#carouselExampleIndicators .carousel-control-prev:hover,
+#carouselExampleIndicators .carousel-control-next:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
 
 
 
