@@ -27,8 +27,14 @@ O objetivo deste projeto é:
 ## ✨ Funcionalidades
 
 - **Seção Sobre Mim** com descrição pessoal e competências  
-- **Seção de Skills** com ícones das linguagens e ferramentas usadas  
-- **Seção de Projetos** com cards interativos, links para demo e GitHub  
+- **Seção de Skills** com ícones das linguagens e ferramentas usadas
+
+<img src="assets/imgs/demo_inicio.png" alt="Tela inicial" width="400"/>
+
+- **Seção de Projetos** com cards interativos, links para demo e GitHub
+
+<img src="assets/imgs/demo_projetos.png" alt="Tela inicial" width="400"/>
+
 - **Menu de navegação fixo** e responsivo  
 - Pequenas animações e efeitos de interatividade com JavaScript  
 - **Footer** com contacto e redes sociais  
