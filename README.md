@@ -1,58 +1,57 @@
-📌 Portfólio Web – Landing Page  
+# 🌐 Portfólio de Nair Teca
 
-Este repositório contém o código da minha **landing page/portfólio pessoal**, criado com o objetivo de apresentar as minhas competências em desenvolvimento web.  
-
-A página foi desenvolvida com foco em **design limpo**, **animações suaves**, **responsividade** e **experiência do utilizador**.
-
-<font color="darkred">**OBS**: Tem uma sessão de login meramente visual, sem a intenção de captar quaisquer dados introduzidos.<font>
+Este é o meu portfólio pessoal, desenvolvido com **HTML, CSS, JavaScript**, e algumas tecnologias auxiliares, para apresentar os meus projetos, competências e experiência como desenvolvedor Full-Stack em formação.
 
 ---
 
-## 🚀 Funcionalidades
+## 🎯 Objetivo
 
-✔️ Secção “Sobre Mim” com apresentação pessoal  
-✔️ Ícones animados de **skills** (HTML, CSS, JS, Python, PHP, MySQL)  
-✔️ Scroll suave entre secções  
-✔️ Galeria interactiva de projectos com cards animados  
-✔️ Popup inteligente que aparece apenas ao entrar na secção de projectos  
-✔️ Header fixo com transparência e blur  
-✔️ Botão “Login/Cadastro” como placeholder  
-✔️ Footer com links directos para GitHub e email  
-✔️ Totalmente responsivo
+O objetivo deste projeto é:  
+- Mostrar competências em **desenvolvimento web** usando HTML, CSS e JavaScript.  
+- Criar um **layout responsivo e moderno**, funcional em diferentes dispositivos.  
+- Servir como **portfólio profissional** para recrutadores e colegas da área de Engenharia de Software.
 
 ---
 
-🛠️ Tecnologias Utilizadas
+## 💻 Tecnologias Utilizadas
 
-**Frontend**
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Bootstrap 5.3**
-- **Devicon (para ícones de linguagens)**
-
-**Recursos de Interface**
-- Efeitos de hover
-- Grid de skills
-- Cards com efeito de overlay
-- IntersectionObserver (popup inteligente)
-- Layout responsivo
+- **HTML5** – Estrutura do site  
+- **CSS3** – Estilização e responsividade  
+- **JavaScript (Vanilla JS)** – Interatividade e animações  
+- **Bootstrap 5** – Layout e componentes responsivos  
+- **Devicon** – Ícones de linguagens e ferramentas  
+- **Python, PHP, MySQL** – Tecnologias usadas em projetos apresentados  
 
 ---
 
-## 📂 Estrutura do Projecto
 
-```bash
-/
-├── index.html
-├── estilo.css
-├── inter.js
-└── assets/
-     ├── imgs/
-          ├── perfil.png 
-          ├── inicio.jpg
-          ├── gestao.jpg
-          ├── espaço.jpg
-          ├── github.png
-          └── email.png
+---
 
+## ✨ Funcionalidades
+
+- **Seção Sobre Mim** com descrição pessoal e competências  
+- **Seção de Skills** com ícones das linguagens e ferramentas usadas  
+- **Seção de Projetos** com cards interativos, links para demo e GitHub  
+- **Menu de navegação fixo** e responsivo  
+- Pequenas animações e efeitos de interatividade com JavaScript  
+- **Footer** com contacto e redes sociais  
+
+---
+
+## 📂 Projetos em Destaque
+
+1. **Sistema de Gestão de Funcionários**  
+   - Tecnologias: PHP, MySQL, HTML, CSS, JavaScript  
+   - [Ver no GitHub](https://github.com/nair-teca/Sistema-de-Gest-o-de-Pessoas-em-PHP.git)
+
+2. **Jogo da Nave Espacial**  
+   - Tecnologias: Python  
+   - [Ver no GitHub](https://github.com/nair-teca/Jogo_NaveEspacial_Python.git)
+
+---
+
+## 🚀 Como executar o projeto
+
+1. Clona este repositório:  
+   ```bash
+   git clone https://github.com/nair-teca/meusite.git
