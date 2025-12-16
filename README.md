@@ -1,6 +1,6 @@
-# 🌐 Portfólio de Nair Teca
+# 🌐 Portfólio Web
 
-Este é o meu portfólio pessoal, desenvolvido com **HTML, CSS, JavaScript**, e algumas tecnologias auxiliares, para apresentar os meus projetos, competências e experiência como desenvolvedor Full-Stack em formação.
+Este é o meu portfólio pessoal, desenvolvido com **HTML, CSS, JavaScript**, para apresentar os meus projetos, competências e experiência como desenvolvedora em formação.
 
 ---
 
@@ -21,9 +21,6 @@ O objetivo deste projeto é:
 - **Bootstrap 5** – Layout e componentes responsivos  
 - **Devicon** – Ícones de linguagens e ferramentas  
 - **Python, PHP, MySQL** – Tecnologias usadas em projetos apresentados  
-
----
-
 
 ---
 
